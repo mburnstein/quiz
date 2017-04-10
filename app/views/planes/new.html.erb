@@ -1,0 +1,7 @@
+<h1>Enter Your Plane Details</h1>
+<%= simple_form_for @plane do |f| %>
+  <%= f.input :model %>
+  <%= f.input :description %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>
